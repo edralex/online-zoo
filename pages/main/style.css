@@ -56,7 +56,7 @@ li{
     background-color: #cccccc;
     background-size: 100% auto;
     width: 100%;
-    height: 800px;
+    height: 780px;
 }
 .textplusbutton{
     position: relative;
@@ -89,6 +89,9 @@ li{
     background-color: #E47209;
     border-radius: 30px;
     border: none;
+}
+.watchbutton:focus{
+    background-color:#4B9200;
 }
 .backstage{
     width: 100%;
@@ -150,6 +153,9 @@ li{
     border: none;
     color: white;
 }
+.navbut:focus{
+    background-color:#4B9200;
+}
 .animalitem{
     text-align: center;
     height: 400px;
@@ -164,4 +170,138 @@ li{
 .animalitem p{
     font-size: 14px;
     line-height: 1;
+}
+.feedbackground{
+    width: 100%;
+    height: 1000px;
+    background-color: #FED290; 
+}
+.feed{
+    width: 70%;
+    height: 70%;
+    background-color: #f1dec1;
+    border-radius: 3%;
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+.feed h1{
+    color:orange;
+    font-size: 3rem;
+    text-align: center;
+}
+.feed h2{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 50px;
+}
+.feed p{
+    text-align: left;
+    margin-left: 50px
+}
+.feed img{
+    margin-left:10%;
+}
+.buto{
+    width: 280px;
+    height:60px;
+    background-color: orange;
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+.buto:hover{
+    width: 280px;
+    height:60px;
+    background-color: #E47209;
+    border-radius: 30px;
+    border: none;
+}
+.buto:focus{
+    background-color: #4B9200;
+}
+.feed .buto{
+    margin-top: 5%;
+    margin-left: 37%;
+}
+.testimonialsback{
+    width: 100%;
+    height: 840px;
+
+
+}
+.testimonials{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+.testimonials h1{
+    text-align: center;
+    line-height: 100px;
+}
+.testimonials img{
+    line-height: 2;
+    width: 100%;
+    margin: auto;
+}
+
+.ranger{
+    width: 40%;
+    position: relative;
+    color:orange;
+    top:5%;
+    left: 30%;
+}
+.testimonials .buto{
+    position: relative;
+    top:15%;
+    left:-40%;
+    border-radius: 5%;
+}
+.footer{
+    width:100%;
+    height: 400px;
+    background-color: black;
+}
+.firstpart{
+    width: 25%;
+    height: 400px;
+}
+
+.refo{
+    position: relative;
+    top:5%
+}
+.firstpart .buto{
+    position: relative;
+    top:15%;
+    border-radius: 5%;
+}
+.socials{
+    position:relative;
+    top:40%;
+}
+
+.secondpart{
+    width: 25%;
+    height: 400px;
+}
+.footcontain{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.secondpart .nav{
+    position: relative;
+    top:80%;
+    min-width: 100%;
+}
+
+.secondpart .nav__list {
+	display: flex;
+    min-width: 100%;
+	align-items: center;
+	justify-content: space-between;
 }
