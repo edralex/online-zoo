@@ -1,0 +1,166 @@
+body{
+    margin: auto;
+    min-width: 1600px;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.header{
+
+	height: 80px;
+    display: flex;
+    grid-row: 1;
+    align-items: center; 
+    background-color: black;
+}
+.hdrcontain{
+    grid-row: 1;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    background-color: black;
+	align-items: center; 
+    margin: auto;
+}
+.nav{
+    min-width: 80%;
+    grid-row: 1;
+    display: flex;
+}
+.dva{
+    grid-row: 1;
+	height: 100%;
+    min-width: 90%;
+	display: flex;
+    padding: 10px;
+}
+.logo-text{
+    color: white;
+    font-size: 1.5em;  
+}
+.nav__list {
+	display: flex;
+    min-width: 50%;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav__linko {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+.nav__linko:hover {
+	color:orange;
+	text-decoration: none;
+}
+
+.nav_item{
+    color:white
+}
+.nav__link {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+}
+.nav__link.edr{
+    color: #f9804b;
+}
+.nav__link:hover {
+	color:orange;
+	text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.fawanimal{
+    background-image: url("../../assets/images/bigpanda.png");
+    background-color: #cccccc;
+    background-size: cover;
+    width: 100%;
+    height: 390px;
+}
+.feedbackground{
+    width: 100%;
+    height: 1482px;
+    background-image: linear-gradient(
+        315.75deg,
+        rgba(254, 210, 144, 0.7) 30.06%,
+        #febdab 100.95%,
+        rgba(254, 210, 144, 0.7) 106.36%
+      );
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.feedbackground p
+{
+    padding:0px 23% 0px 23%
+}
+.doninfo{
+    padding:0px 41% 0px 0px
+}
+.feed{
+    width: 70%;
+    height: 70%;
+    background-color: #f1dec1;
+    border-radius: 3%;
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+.feed h1{
+    color:orange;
+    font-size: 3rem;
+    text-align: center;
+}
+.feed h2{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 50px;
+}
+.feed p{
+    text-align: left;
+    margin-left: 50px
+}
+.feed img{
+    margin-left:10%;
+}
+h1 {
+    margin:0;
+   }
+.firstrect{
+    background-color: #f1dec1;
+    height: 964px;
+    width:72%;
+}
+.secondrect{
+    height: 862px;
+    width:61%;
+    margin: auto;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.secondrect p{
+    padding: 0;
+}
+.feeding{
+    padding-top: 10%;
+}
+.pickage{
+    height: 82px;
+    width: 82px;
+    position: relative;
+    left:25%;
+    bottom: 35%;
+}
